@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo-project-57408"
+version = "0.1.0"
+description = "A demonstration project for AI training with automated repository generation"
+dependencies = ['fastapi', 'sqlalchemy', 'pydantic', 'uvicorn']
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
