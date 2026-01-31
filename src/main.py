@@ -8,3 +8,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Commit 1: Add basic project structure and configuration
